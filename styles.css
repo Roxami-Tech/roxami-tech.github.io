@@ -106,3 +106,20 @@ h1 span,.section-heading h2 span,.mission-inner h2 span,.community h2 span{backg
 .footer-right{flex-wrap:wrap}
 @media(max-width:900px){.social-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:680px){.social-section{padding-top:5px;padding-bottom:75px}.social-grid{grid-template-columns:1fr}.social-card{padding:16px}}
+/* APK Download Links */
+
+.app-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: auto;
+}
+
+.download-link {
+  color: #8fc8ff;
+}
+
+.download-link:hover {
+  color: #b9a9ff;
+}
